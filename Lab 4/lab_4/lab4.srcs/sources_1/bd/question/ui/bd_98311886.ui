@@ -1,0 +1,39 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.762481",
+   "Default View_TopLeft":"-222,-331",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port A3 -pg 1 -lvl 0 -x -10 -y -140 -defaultsOSRD
+preplace port A2 -pg 1 -lvl 0 -x -10 -y -90 -defaultsOSRD
+preplace port A1 -pg 1 -lvl 0 -x -10 -y -40 -defaultsOSRD
+preplace port A0 -pg 1 -lvl 0 -x -10 -y 10 -defaultsOSRD
+preplace port O -pg 1 -lvl 5 -x 1180 -y 60 -defaultsOSRD
+preplace inst xup_and2_0 -pg 1 -lvl 3 -x 740 -y -210 -defaultsOSRD
+preplace inst xup_inv_0 -pg 1 -lvl 2 -x 480 -y -250 -defaultsOSRD -resize 83 88
+preplace inst xup_inv_1 -pg 1 -lvl 2 -x 480 -y -130 -defaultsOSRD -resize 83 88
+preplace inst xup_and2_1 -pg 1 -lvl 3 -x 740 -y -40 -defaultsOSRD
+preplace inst xup_inv_2 -pg 1 -lvl 1 -x 320 -y 10 -defaultsOSRD -resize 83 88
+preplace inst xup_and2_2 -pg 1 -lvl 3 -x 740 -y 120 -defaultsOSRD
+preplace inst xup_inv_3 -pg 1 -lvl 1 -x 320 -y 120 -defaultsOSRD -resize 83 88
+preplace inst xup_and3_0 -pg 1 -lvl 3 -x 740 -y 260 -defaultsOSRD -resize 194 114
+preplace inst xup_or4_0 -pg 1 -lvl 4 -x 1040 -y 50 -defaultsOSRD
+preplace netloc A2_1 1 0 3 N -90 400 -50 580
+preplace netloc xup_inv_0_y 1 2 1 580 -250n
+preplace netloc xup_inv_1_y 1 2 1 550 -200n
+preplace netloc A1_1 1 0 3 10 -60 410 -60 550
+preplace netloc A0_1 1 0 1 10 10n
+preplace netloc xup_inv_2_y 1 1 2 400 -30 N
+preplace netloc A3_1 1 0 3 NJ -140 390 -320 570
+preplace netloc xup_inv_3_y 1 1 2 N 120 560
+preplace netloc xup_and2_0_y 1 3 1 870 -210n
+preplace netloc xup_and2_1_y 1 3 1 860 -40n
+preplace netloc xup_and2_2_y 1 3 1 860 60n
+preplace netloc xup_and3_0_y 1 3 1 870 80n
+preplace netloc xup_or4_0_y 1 4 1 1160 50n
+levelinfo -pg 1 -10 320 480 740 1040 1180
+pagesize -pg 1 -db -bbox -sgen -80 -530 1240 340
+"
+}
+0

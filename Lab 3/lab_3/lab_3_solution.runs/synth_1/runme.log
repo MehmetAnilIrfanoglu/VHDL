@@ -1,0 +1,224 @@
+
+*** Running vivado
+    with args -log question_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source question_wrapper.tcl
+
+
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source question_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/vivaldi/Library'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivaldi/Vivado/2020.1/data/ip'.
+Command: synth_design -top question_wrapper -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 11412
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1015.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'question_wrapper' [C:/Users/anil_/lab_3_solution/lab_3_solution.srcs/sources_1/imports/hdl/question_wrapper.vhd:22]
+INFO: [Synth 8-3491] module 'question' declared at 'C:/Users/anil_/lab_3_solution/lab_3_solution.srcs/sources_1/bd/question/synth/question.vhd:14' bound to instance 'question_i' of component 'question' [C:/Users/anil_/lab_3_solution/lab_3_solution.srcs/sources_1/imports/hdl/question_wrapper.vhd:31]
+INFO: [Synth 8-638] synthesizing module 'question' [C:/Users/anil_/lab_3_solution/lab_3_solution.srcs/sources_1/bd/question/synth/question.vhd:26]
+INFO: [Synth 8-3491] module 'question_xup_nand2_0_0' declared at 'C:/Users/anil_/lab_3_solution/lab_3_solution.runs/synth_1/.Xil/Vivado-17332-DESKTOP-ECJJKP0/realtime/question_xup_nand2_0_0_stub.vhdl:5' bound to instance 'xup_nand2_0' of component 'question_xup_nand2_0_0' [C:/Users/anil_/lab_3_solution/lab_3_solution.srcs/sources_1/bd/question/synth/question.vhd:57]
+INFO: [Synth 8-638] synthesizing module 'question_xup_nand2_0_0' [C:/Users/anil_/lab_3_solution/lab_3_solution.runs/synth_1/.Xil/Vivado-17332-DESKTOP-ECJJKP0/realtime/question_xup_nand2_0_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'question_xup_nor2_0_0' declared at 'C:/Users/anil_/lab_3_solution/lab_3_solution.runs/synth_1/.Xil/Vivado-17332-DESKTOP-ECJJKP0/realtime/question_xup_nor2_0_0_stub.vhdl:5' bound to instance 'xup_nor2_0' of component 'question_xup_nor2_0_0' [C:/Users/anil_/lab_3_solution/lab_3_solution.srcs/sources_1/bd/question/synth/question.vhd:63]
+INFO: [Synth 8-638] synthesizing module 'question_xup_nor2_0_0' [C:/Users/anil_/lab_3_solution/lab_3_solution.runs/synth_1/.Xil/Vivado-17332-DESKTOP-ECJJKP0/realtime/question_xup_nor2_0_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'question_xup_xor2_0_0' declared at 'C:/Users/anil_/lab_3_solution/lab_3_solution.runs/synth_1/.Xil/Vivado-17332-DESKTOP-ECJJKP0/realtime/question_xup_xor2_0_0_stub.vhdl:5' bound to instance 'xup_xor2_0' of component 'question_xup_xor2_0_0' [C:/Users/anil_/lab_3_solution/lab_3_solution.srcs/sources_1/bd/question/synth/question.vhd:69]
+INFO: [Synth 8-638] synthesizing module 'question_xup_xor2_0_0' [C:/Users/anil_/lab_3_solution/lab_3_solution.runs/synth_1/.Xil/Vivado-17332-DESKTOP-ECJJKP0/realtime/question_xup_xor2_0_0_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'question' (1#1) [C:/Users/anil_/lab_3_solution/lab_3_solution.srcs/sources_1/bd/question/synth/question.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'question_wrapper' (2#1) [C:/Users/anil_/lab_3_solution/lab_3_solution.srcs/sources_1/imports/hdl/question_wrapper.vhd:22]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1015.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1015.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1015.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1015.543 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/anil_/lab_3_solution/lab_3_solution.srcs/sources_1/bd/question/ip/question_xup_nand2_0_0/question_xup_nand2_0_0/question_xup_nand2_0_0_in_context.xdc] for cell 'question_i/xup_nand2_0'
+Finished Parsing XDC File [c:/Users/anil_/lab_3_solution/lab_3_solution.srcs/sources_1/bd/question/ip/question_xup_nand2_0_0/question_xup_nand2_0_0/question_xup_nand2_0_0_in_context.xdc] for cell 'question_i/xup_nand2_0'
+Parsing XDC File [c:/Users/anil_/lab_3_solution/lab_3_solution.srcs/sources_1/bd/question/ip/question_xup_nor2_0_0/question_xup_nor2_0_0/question_xup_nor2_0_0_in_context.xdc] for cell 'question_i/xup_nor2_0'
+Finished Parsing XDC File [c:/Users/anil_/lab_3_solution/lab_3_solution.srcs/sources_1/bd/question/ip/question_xup_nor2_0_0/question_xup_nor2_0_0/question_xup_nor2_0_0_in_context.xdc] for cell 'question_i/xup_nor2_0'
+Parsing XDC File [c:/Users/anil_/lab_3_solution/lab_3_solution.srcs/sources_1/bd/question/ip/question_xup_xor2_0_0/question_xup_xor2_0_0/question_xup_xor2_0_0_in_context.xdc] for cell 'question_i/xup_xor2_0'
+Finished Parsing XDC File [c:/Users/anil_/lab_3_solution/lab_3_solution.srcs/sources_1/bd/question/ip/question_xup_xor2_0_0/question_xup_xor2_0_0/question_xup_xor2_0_0_in_context.xdc] for cell 'question_i/xup_xor2_0'
+Parsing XDC File [C:/Users/anil_/lab_3_solution/lab_3_solution.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/anil_/lab_3_solution/lab_3_solution.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1015.543 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1015.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1015.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1015.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for question_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for question_i/xup_nand2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for question_i/xup_nor2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for question_i/xup_xor2_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1015.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1015.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1015.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1015.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1015.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 1023.426 ; gain = 7.883
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1030.082 ; gain = 14.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1030.082 ; gain = 14.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1030.082 ; gain = 14.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1030.082 ; gain = 14.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1030.082 ; gain = 14.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1030.082 ; gain = 14.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------------+----------+
+|      |BlackBox name          |Instances |
++------+-----------------------+----------+
+|1     |question_xup_nand2_0_0 |         1|
+|2     |question_xup_nor2_0_0  |         1|
+|3     |question_xup_xor2_0_0  |         1|
++------+-----------------------+----------+
+
+Report Cell Usage: 
++------+----------------------------+------+
+|      |Cell                        |Count |
++------+----------------------------+------+
+|1     |question_xup_nand2_0_0_bbox |     1|
+|2     |question_xup_nor2_0_0_bbox  |     1|
+|3     |question_xup_xor2_0_0_bbox  |     1|
+|4     |IBUF                        |     2|
+|5     |OBUF                        |     1|
++------+----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1030.082 ; gain = 14.539
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:32 . Memory (MB): peak = 1030.082 ; gain = 14.539
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1030.082 ; gain = 14.539
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1041.148 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1045.898 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+26 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:41 ; elapsed = 00:00:45 . Memory (MB): peak = 1045.898 ; gain = 30.355
+INFO: [Common 17-1381] The checkpoint 'C:/Users/anil_/lab_3_solution/lab_3_solution.runs/synth_1/question_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file question_wrapper_utilization_synth.rpt -pb question_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 29 20:58:37 2020...

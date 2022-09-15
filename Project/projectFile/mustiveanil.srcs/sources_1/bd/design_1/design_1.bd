@@ -1,0 +1,884 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xE2BEA37C632FF532",
+      "device": "xc7k70tfbv676-1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "Flr0": "",
+      "O0": "",
+      "S0": "",
+      "C0": "",
+      "xup_or2_0": "",
+      "xup_and2_0": "",
+      "GD1": "",
+      "GU1": "",
+      "xup_and4_0": "",
+      "fc2not": "",
+      "gt2not": "",
+      "gt1not": "",
+      "fcu1not": "",
+      "fcd1not": "",
+      "fc0not": "",
+      "gt0not": "",
+      "xup_or4_0": "",
+      "Flr1": "",
+      "O1": "",
+      "S1": "",
+      "C1": "",
+      "xup_or3_0": "",
+      "xup_and2_3": "",
+      "xup_and2_4": "",
+      "xup_nor2_0": "",
+      "xup_nor2_1": "",
+      "xup_and5_0": "",
+      "xup_or3_1": "",
+      "xup_or3_2": "",
+      "xup_or2_1": "",
+      "xup_and2_5": "",
+      "GD2": "",
+      "xup_or3_3": "",
+      "GU2": "",
+      "xup_and3_0": "",
+      "xup_and5_1": "",
+      "xup_or3_4": "",
+      "xup_or3_5": "",
+      "xup_or2_3": "",
+      "Flr2": "",
+      "O2": "",
+      "S2": "",
+      "C2": "",
+      "xup_or2_4": "",
+      "xup_and2_1": "",
+      "xup_or2_5": "",
+      "xup_and4_1": "",
+      "xup_or4_1": "",
+      "xup_or3_6": "",
+      "xup_or3_7": "",
+      "xup_or3_8": "",
+      "xup_or4_2": "",
+      "xup_or4_3": "",
+      "xup_or4_4": "",
+      "xup_or2_2": "",
+      "xup_or2_6": ""
+    },
+    "ports": {
+      "FC0": {
+        "direction": "I"
+      },
+      "FC2": {
+        "direction": "I"
+      },
+      "FCU1": {
+        "direction": "I"
+      },
+      "FCD1": {
+        "direction": "I"
+      },
+      "GT0": {
+        "direction": "I"
+      },
+      "GT1": {
+        "direction": "I"
+      },
+      "GT2": {
+        "direction": "I"
+      },
+      "DRC": {
+        "direction": "O"
+      },
+      "DRO": {
+        "direction": "O"
+      },
+      "AT0": {
+        "direction": "O"
+      },
+      "AT1": {
+        "direction": "O"
+      },
+      "AT2": {
+        "direction": "O"
+      },
+      "CMU": {
+        "direction": "O"
+      },
+      "CMD": {
+        "direction": "O"
+      },
+      "en": {
+        "direction": "I"
+      },
+      "reset": {
+        "direction": "I",
+        "parameters": {
+          "POLARITY": {
+            "value": "",
+            "value_src": "weak"
+          }
+        }
+      },
+      "clk": {
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "",
+            "value_src": "weak"
+          },
+          "FREQ_HZ": {
+            "value": "",
+            "value_src": "weak"
+          },
+          "PHASE": {
+            "value": "",
+            "value_src": "weak"
+          }
+        }
+      },
+      "enabling": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "Flr0": {
+        "vlnv": "xilinx.com:XUP:xup_dff_en_reset:1.0",
+        "xci_name": "design_1_xup_dff_en_reset_0_0"
+      },
+      "O0": {
+        "vlnv": "xilinx.com:XUP:xup_dff_en_reset:1.0",
+        "xci_name": "design_1_xup_dff_en_reset_0_1"
+      },
+      "S0": {
+        "vlnv": "xilinx.com:XUP:xup_dff_en_reset:1.0",
+        "xci_name": "design_1_xup_dff_en_reset_0_2"
+      },
+      "C0": {
+        "vlnv": "xilinx.com:XUP:xup_dff_en_reset:1.0",
+        "xci_name": "design_1_Wait0_0"
+      },
+      "xup_or2_0": {
+        "vlnv": "xilinx.com:XUP:xup_or2:1.0",
+        "xci_name": "design_1_xup_or2_0_0"
+      },
+      "xup_and2_0": {
+        "vlnv": "xilinx.com:XUP:xup_and2:1.0",
+        "xci_name": "design_1_xup_and2_0_0"
+      },
+      "GD1": {
+        "vlnv": "xilinx.com:XUP:xup_dff_en_reset:1.0",
+        "xci_name": "design_1_xup_dff_en_reset_0_3"
+      },
+      "GU1": {
+        "vlnv": "xilinx.com:XUP:xup_dff_en_reset:1.0",
+        "xci_name": "design_1_xup_dff_en_reset_0_4"
+      },
+      "xup_and4_0": {
+        "vlnv": "xilinx.com:XUP:xup_and4:1.0",
+        "xci_name": "design_1_xup_and4_0_0"
+      },
+      "fc2not": {
+        "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+        "xci_name": "design_1_xup_inv_0_0"
+      },
+      "gt2not": {
+        "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+        "xci_name": "design_1_xup_inv_0_1"
+      },
+      "gt1not": {
+        "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+        "xci_name": "design_1_xup_inv_0_2"
+      },
+      "fcu1not": {
+        "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+        "xci_name": "design_1_xup_inv_0_3"
+      },
+      "fcd1not": {
+        "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+        "xci_name": "design_1_xup_inv_0_4"
+      },
+      "fc0not": {
+        "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+        "xci_name": "design_1_xup_inv_0_5"
+      },
+      "gt0not": {
+        "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+        "xci_name": "design_1_xup_inv_0_6"
+      },
+      "xup_or4_0": {
+        "vlnv": "xilinx.com:XUP:xup_or4:1.0",
+        "xci_name": "design_1_xup_or4_0_0"
+      },
+      "Flr1": {
+        "vlnv": "xilinx.com:XUP:xup_dff_en_reset:1.0",
+        "xci_name": "design_1_xup_dff_en_reset_0_5"
+      },
+      "O1": {
+        "vlnv": "xilinx.com:XUP:xup_dff_en_reset:1.0",
+        "xci_name": "design_1_xup_dff_en_reset_0_6"
+      },
+      "S1": {
+        "vlnv": "xilinx.com:XUP:xup_dff_en_reset:1.0",
+        "xci_name": "design_1_DoorOpen1_0"
+      },
+      "C1": {
+        "vlnv": "xilinx.com:XUP:xup_dff_en_reset:1.0",
+        "xci_name": "design_1_DoorOpen1_1"
+      },
+      "xup_or3_0": {
+        "vlnv": "xilinx.com:XUP:xup_or3:1.0",
+        "xci_name": "design_1_xup_or3_0_0"
+      },
+      "xup_and2_3": {
+        "vlnv": "xilinx.com:XUP:xup_and2:1.0",
+        "xci_name": "design_1_xup_and2_3_0"
+      },
+      "xup_and2_4": {
+        "vlnv": "xilinx.com:XUP:xup_and2:1.0",
+        "xci_name": "design_1_xup_and2_3_1"
+      },
+      "xup_nor2_0": {
+        "vlnv": "xilinx.com:XUP:xup_nor2:1.0",
+        "xci_name": "design_1_xup_nor2_0_0"
+      },
+      "xup_nor2_1": {
+        "vlnv": "xilinx.com:XUP:xup_nor2:1.0",
+        "xci_name": "design_1_xup_nor2_0_1"
+      },
+      "xup_and5_0": {
+        "vlnv": "xilinx.com:XUP:xup_and5:1.0",
+        "xci_name": "design_1_xup_and5_0_0"
+      },
+      "xup_or3_1": {
+        "vlnv": "xilinx.com:XUP:xup_or3:1.0",
+        "xci_name": "design_1_xup_or3_1_0"
+      },
+      "xup_or3_2": {
+        "vlnv": "xilinx.com:XUP:xup_or3:1.0",
+        "xci_name": "design_1_xup_or3_1_1"
+      },
+      "xup_or2_1": {
+        "vlnv": "xilinx.com:XUP:xup_or2:1.0",
+        "xci_name": "design_1_xup_or2_1_2"
+      },
+      "xup_and2_5": {
+        "vlnv": "xilinx.com:XUP:xup_and2:1.0",
+        "xci_name": "design_1_xup_and2_5_0"
+      },
+      "GD2": {
+        "vlnv": "xilinx.com:XUP:xup_dff_en_reset:1.0",
+        "xci_name": "design_1_xup_dff_en_reset_0_7"
+      },
+      "xup_or3_3": {
+        "vlnv": "xilinx.com:XUP:xup_or3:1.0",
+        "xci_name": "design_1_xup_or3_3_0"
+      },
+      "GU2": {
+        "vlnv": "xilinx.com:XUP:xup_dff_en_reset:1.0",
+        "xci_name": "design_1_xup_dff_en_reset_0_8"
+      },
+      "xup_and3_0": {
+        "vlnv": "xilinx.com:XUP:xup_and3:1.0",
+        "xci_name": "design_1_xup_and3_0_1"
+      },
+      "xup_and5_1": {
+        "vlnv": "xilinx.com:XUP:xup_and5:1.0",
+        "xci_name": "design_1_xup_and5_1_0"
+      },
+      "xup_or3_4": {
+        "vlnv": "xilinx.com:XUP:xup_or3:1.0",
+        "xci_name": "design_1_xup_or3_4_0"
+      },
+      "xup_or3_5": {
+        "vlnv": "xilinx.com:XUP:xup_or3:1.0",
+        "xci_name": "design_1_xup_or3_4_1"
+      },
+      "xup_or2_3": {
+        "vlnv": "xilinx.com:XUP:xup_or2:1.0",
+        "xci_name": "design_1_xup_or2_3_0"
+      },
+      "Flr2": {
+        "vlnv": "xilinx.com:XUP:xup_dff_en_reset:1.0",
+        "xci_name": "design_1_xup_dff_en_reset_0_9"
+      },
+      "O2": {
+        "vlnv": "xilinx.com:XUP:xup_dff_en_reset:1.0",
+        "xci_name": "design_1_FLOOR2_0"
+      },
+      "S2": {
+        "vlnv": "xilinx.com:XUP:xup_dff_en_reset:1.0",
+        "xci_name": "design_1_FLOOR2_1"
+      },
+      "C2": {
+        "vlnv": "xilinx.com:XUP:xup_dff_en_reset:1.0",
+        "xci_name": "design_1_FLOOR2_2"
+      },
+      "xup_or2_4": {
+        "vlnv": "xilinx.com:XUP:xup_or2:1.0",
+        "xci_name": "design_1_xup_or2_4_0"
+      },
+      "xup_and2_1": {
+        "vlnv": "xilinx.com:XUP:xup_and2:1.0",
+        "xci_name": "design_1_xup_and2_1_1"
+      },
+      "xup_or2_5": {
+        "vlnv": "xilinx.com:XUP:xup_or2:1.0",
+        "xci_name": "design_1_xup_or2_5_0"
+      },
+      "xup_and4_1": {
+        "vlnv": "xilinx.com:XUP:xup_and4:1.0",
+        "xci_name": "design_1_xup_and4_1_0"
+      },
+      "xup_or4_1": {
+        "vlnv": "xilinx.com:XUP:xup_or4:1.0",
+        "xci_name": "design_1_xup_or4_1_0"
+      },
+      "xup_or3_6": {
+        "vlnv": "xilinx.com:XUP:xup_or3:1.0",
+        "xci_name": "design_1_xup_or3_6_0"
+      },
+      "xup_or3_7": {
+        "vlnv": "xilinx.com:XUP:xup_or3:1.0",
+        "xci_name": "design_1_xup_or3_7_0"
+      },
+      "xup_or3_8": {
+        "vlnv": "xilinx.com:XUP:xup_or3:1.0",
+        "xci_name": "design_1_xup_or3_7_1"
+      },
+      "xup_or4_2": {
+        "vlnv": "xilinx.com:XUP:xup_or4:1.0",
+        "xci_name": "design_1_xup_or4_2_0"
+      },
+      "xup_or4_3": {
+        "vlnv": "xilinx.com:XUP:xup_or4:1.0",
+        "xci_name": "design_1_xup_or4_2_1"
+      },
+      "xup_or4_4": {
+        "vlnv": "xilinx.com:XUP:xup_or4:1.0",
+        "xci_name": "design_1_xup_or4_3_0"
+      },
+      "xup_or2_2": {
+        "vlnv": "xilinx.com:XUP:xup_or2:1.0",
+        "xci_name": "design_1_xup_or2_2_1"
+      },
+      "xup_or2_6": {
+        "vlnv": "xilinx.com:XUP:xup_or2:1.0",
+        "xci_name": "design_1_xup_or2_2_2"
+      }
+    },
+    "nets": {
+      "clk_1": {
+        "ports": [
+          "clk",
+          "O0/clk",
+          "S0/clk",
+          "C0/clk",
+          "Flr0/clk",
+          "GD1/clk",
+          "GU1/clk",
+          "Flr1/clk",
+          "O1/clk",
+          "S1/clk",
+          "C1/clk",
+          "GU2/clk",
+          "GD2/clk",
+          "O2/clk",
+          "S2/clk",
+          "C2/clk",
+          "Flr2/clk"
+        ]
+      },
+      "en_1": {
+        "ports": [
+          "en",
+          "O0/en",
+          "Flr0/en",
+          "C0/en",
+          "S0/en",
+          "GD1/en",
+          "GU1/en",
+          "Flr1/en",
+          "O1/en",
+          "C1/en",
+          "S1/en",
+          "GU2/en",
+          "GD2/en",
+          "O2/en",
+          "S2/en",
+          "C2/en",
+          "Flr2/en"
+        ]
+      },
+      "reset_1": {
+        "ports": [
+          "reset",
+          "O0/reset",
+          "Flr0/reset",
+          "C0/reset",
+          "S0/reset",
+          "GD1/reset",
+          "GU1/reset",
+          "Flr1/reset",
+          "O1/reset",
+          "S1/reset",
+          "C1/reset",
+          "GU2/reset",
+          "GD2/reset",
+          "Flr2/reset",
+          "C2/reset",
+          "O2/reset",
+          "S2/reset"
+        ]
+      },
+      "DoorOpen0_q": {
+        "ports": [
+          "O0/q",
+          "S0/d",
+          "xup_or3_7/c",
+          "xup_or4_4/b"
+        ]
+      },
+      "Wait0_q": {
+        "ports": [
+          "S0/q",
+          "C0/d",
+          "xup_or4_4/c"
+        ]
+      },
+      "FC0_1": {
+        "ports": [
+          "FC0",
+          "xup_or2_0/a",
+          "fc0not/a",
+          "xup_nor2_1/a",
+          "xup_or2_1/a",
+          "xup_or3_2/b",
+          "xup_or3_5/b",
+          "xup_or4_1/c"
+        ]
+      },
+      "GT0_1": {
+        "ports": [
+          "GT0",
+          "xup_or2_0/b",
+          "gt0not/a",
+          "xup_nor2_1/b",
+          "xup_or2_1/b",
+          "xup_or3_2/c",
+          "xup_or3_5/c",
+          "xup_or4_1/d"
+        ]
+      },
+      "xup_or2_0_y": {
+        "ports": [
+          "xup_or2_0/y",
+          "xup_and2_0/a"
+        ]
+      },
+      "FLOOR0_q": {
+        "ports": [
+          "Flr0/q",
+          "xup_and2_0/b",
+          "xup_and4_0/a",
+          "xup_or4_4/a"
+        ]
+      },
+      "xup_and2_0_y": {
+        "ports": [
+          "xup_and2_0/y",
+          "O0/d"
+        ]
+      },
+      "FC2_1": {
+        "ports": [
+          "FC2",
+          "fc2not/a",
+          "xup_or4_0/c",
+          "xup_nor2_0/a",
+          "xup_or3_1/b",
+          "xup_or3_4/b",
+          "xup_or2_3/a",
+          "xup_or2_5/a"
+        ]
+      },
+      "GT2_1": {
+        "ports": [
+          "GT2",
+          "gt2not/a",
+          "xup_or4_0/d",
+          "xup_nor2_0/b",
+          "xup_or3_1/c",
+          "xup_or3_4/c",
+          "xup_or2_3/b",
+          "xup_or2_5/b"
+        ]
+      },
+      "GT1_1": {
+        "ports": [
+          "GT1",
+          "gt1not/a",
+          "xup_or4_0/b",
+          "xup_or3_0/c",
+          "xup_or4_1/b"
+        ]
+      },
+      "FCU1_1": {
+        "ports": [
+          "FCU1",
+          "fcu1not/a",
+          "xup_or4_0/a",
+          "xup_and2_4/b"
+        ]
+      },
+      "FCD1_1": {
+        "ports": [
+          "FCD1",
+          "fcd1not/a",
+          "xup_and2_3/b",
+          "xup_or4_1/a"
+        ]
+      },
+      "xup_or4_0_y": {
+        "ports": [
+          "xup_or4_0/y",
+          "xup_and4_0/b"
+        ]
+      },
+      "notGT0_y": {
+        "ports": [
+          "gt0not/y",
+          "xup_and4_0/c",
+          "xup_and3_0/a"
+        ]
+      },
+      "notFC0_y": {
+        "ports": [
+          "fc0not/y",
+          "xup_and4_0/d",
+          "xup_and3_0/b"
+        ]
+      },
+      "xup_and4_0_y": {
+        "ports": [
+          "xup_and4_0/y",
+          "GU1/d"
+        ]
+      },
+      "DoorOpen1_q": {
+        "ports": [
+          "O1/q",
+          "S1/d",
+          "xup_or3_7/b",
+          "xup_or4_3/b"
+        ]
+      },
+      "Wait1_q": {
+        "ports": [
+          "S1/q",
+          "C1/d",
+          "xup_or4_3/c"
+        ]
+      },
+      "xup_and2_3_y": {
+        "ports": [
+          "xup_and2_3/y",
+          "xup_or3_0/a"
+        ]
+      },
+      "xup_and2_4_y": {
+        "ports": [
+          "xup_and2_4/y",
+          "xup_or3_0/b"
+        ]
+      },
+      "xup_nor2_0_y": {
+        "ports": [
+          "xup_nor2_0/y",
+          "xup_and2_3/a"
+        ]
+      },
+      "xup_nor2_1_y": {
+        "ports": [
+          "xup_nor2_1/y",
+          "xup_and2_4/a"
+        ]
+      },
+      "xup_and5_0_y": {
+        "ports": [
+          "xup_and5_0/y",
+          "GD1/d"
+        ]
+      },
+      "xup_or2_1_y": {
+        "ports": [
+          "xup_or2_1/y",
+          "xup_and5_0/a"
+        ]
+      },
+      "xup_or3_1_y": {
+        "ports": [
+          "xup_or3_1/y",
+          "xup_and5_0/b"
+        ]
+      },
+      "xup_or3_2_y": {
+        "ports": [
+          "xup_or3_2/y",
+          "xup_and5_0/c"
+        ]
+      },
+      "xup_or3_0_y": {
+        "ports": [
+          "xup_or3_0/y",
+          "xup_and2_5/b"
+        ]
+      },
+      "FLOOR1_q": {
+        "ports": [
+          "Flr1/q",
+          "xup_and2_5/a",
+          "xup_and5_0/e",
+          "xup_and5_1/b",
+          "xup_or4_3/d"
+        ]
+      },
+      "xup_and2_5_y": {
+        "ports": [
+          "xup_and2_5/y",
+          "O1/d"
+        ]
+      },
+      "notGT1_y": {
+        "ports": [
+          "gt1not/y",
+          "xup_and5_0/d",
+          "xup_and3_0/c"
+        ]
+      },
+      "notFCD1_y": {
+        "ports": [
+          "fcd1not/y",
+          "xup_or3_1/a",
+          "xup_or3_4/a"
+        ]
+      },
+      "notFCU1_y": {
+        "ports": [
+          "fcu1not/y",
+          "xup_or3_2/a",
+          "xup_or3_5/a"
+        ]
+      },
+      "EU1_q": {
+        "ports": [
+          "GU1/q",
+          "xup_or3_3/a",
+          "xup_or2_6/a"
+        ]
+      },
+      "ED2_q": {
+        "ports": [
+          "GD2/q",
+          "xup_or3_3/b",
+          "xup_or2_2/a"
+        ]
+      },
+      "DoorClose1_q": {
+        "ports": [
+          "C1/q",
+          "xup_or3_3/c",
+          "xup_or3_8/b",
+          "xup_or4_3/a"
+        ]
+      },
+      "xup_or3_3_y": {
+        "ports": [
+          "xup_or3_3/y",
+          "Flr1/d"
+        ]
+      },
+      "xup_and3_0_y": {
+        "ports": [
+          "xup_and3_0/y",
+          "xup_and5_1/a"
+        ]
+      },
+      "xup_and5_1_y": {
+        "ports": [
+          "xup_and5_1/y",
+          "GU2/d"
+        ]
+      },
+      "xup_or2_3_y": {
+        "ports": [
+          "xup_or2_3/y",
+          "xup_and5_1/c"
+        ]
+      },
+      "xup_or3_4_y": {
+        "ports": [
+          "xup_or3_4/y",
+          "xup_and5_1/d"
+        ]
+      },
+      "xup_or3_5_y": {
+        "ports": [
+          "xup_or3_5/y",
+          "xup_and5_1/e"
+        ]
+      },
+      "DoorOpen2_q": {
+        "ports": [
+          "O2/q",
+          "S2/d",
+          "xup_or3_7/a",
+          "xup_or4_2/c"
+        ]
+      },
+      "Wait2_q": {
+        "ports": [
+          "S2/q",
+          "C2/d",
+          "xup_or4_2/b"
+        ]
+      },
+      "xup_or2_4_y": {
+        "ports": [
+          "xup_or2_4/y",
+          "Flr2/d"
+        ]
+      },
+      "DoorClose2_q": {
+        "ports": [
+          "C2/q",
+          "xup_or2_4/a",
+          "xup_or3_8/a",
+          "xup_or4_2/a"
+        ]
+      },
+      "EU2_q": {
+        "ports": [
+          "GU2/q",
+          "xup_or2_4/b",
+          "xup_or2_6/b"
+        ]
+      },
+      "FLOOR2_q": {
+        "ports": [
+          "Flr2/q",
+          "xup_and2_1/a",
+          "xup_and4_1/b",
+          "xup_or4_2/d"
+        ]
+      },
+      "xup_or2_5_y": {
+        "ports": [
+          "xup_or2_5/y",
+          "xup_and2_1/b"
+        ]
+      },
+      "xup_and2_1_y": {
+        "ports": [
+          "xup_and2_1/y",
+          "O2/d"
+        ]
+      },
+      "xup_and4_1_y": {
+        "ports": [
+          "xup_and4_1/y",
+          "GD2/d"
+        ]
+      },
+      "xup_or4_1_y": {
+        "ports": [
+          "xup_or4_1/y",
+          "xup_and4_1/a"
+        ]
+      },
+      "notGT2_y": {
+        "ports": [
+          "gt2not/y",
+          "xup_and4_1/c"
+        ]
+      },
+      "notFC2_y": {
+        "ports": [
+          "fc2not/y",
+          "xup_and4_1/d"
+        ]
+      },
+      "ED1_q": {
+        "ports": [
+          "GD1/q",
+          "xup_or3_6/a",
+          "xup_or2_2/b"
+        ]
+      },
+      "DoorClose0_q": {
+        "ports": [
+          "C0/q",
+          "xup_or3_6/b",
+          "xup_or3_8/c",
+          "xup_or4_4/d"
+        ]
+      },
+      "tempInput_1": {
+        "ports": [
+          "enabling",
+          "xup_or3_6/c"
+        ]
+      },
+      "xup_or3_6_y": {
+        "ports": [
+          "xup_or3_6/y",
+          "Flr0/d"
+        ]
+      },
+      "xup_or3_7_y": {
+        "ports": [
+          "xup_or3_7/y",
+          "DRO"
+        ]
+      },
+      "xup_or3_8_y": {
+        "ports": [
+          "xup_or3_8/y",
+          "DRC"
+        ]
+      },
+      "xup_or4_4_y": {
+        "ports": [
+          "xup_or4_4/y",
+          "AT0"
+        ]
+      },
+      "xup_or4_3_y": {
+        "ports": [
+          "xup_or4_3/y",
+          "AT1"
+        ]
+      },
+      "xup_or4_2_y": {
+        "ports": [
+          "xup_or4_2/y",
+          "AT2"
+        ]
+      },
+      "xup_or2_6_y": {
+        "ports": [
+          "xup_or2_6/y",
+          "CMU"
+        ]
+      },
+      "xup_or2_2_y": {
+        "ports": [
+          "xup_or2_2/y",
+          "CMD"
+        ]
+      }
+    }
+  }
+}

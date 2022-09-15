@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab7.ip_user_files/bd/questionA/ipshared/37a5/src/xup_dff_en_reset.v" \
+"../../../../lab7.ip_user_files/bd/questionA/ip/questionA_xup_dff_en_reset_0_0/sim/questionA_xup_dff_en_reset_0_0.v" \
+"../../../../lab7.ip_user_files/bd/questionA/ip/questionA_xup_dff_en_reset_0_1/sim/questionA_xup_dff_en_reset_0_1.v" \
+"../../../../lab7.ip_user_files/bd/questionA/ip/questionA_xup_dff_en_reset_0_2/sim/questionA_xup_dff_en_reset_0_2.v" \
+"../../../../lab7.ip_user_files/bd/questionA/ip/questionA_xup_dff_en_reset_0_3/sim/questionA_xup_dff_en_reset_0_3.v" \
+"../../../../lab7.ip_user_files/bd/questionA/ipshared/9859/src/xup_and2.v" \
+"../../../../lab7.ip_user_files/bd/questionA/ip/questionA_xup_and2_0_0/sim/questionA_xup_and2_0_0.v" \
+"../../../../lab7.ip_user_files/bd/questionA/ip/questionA_xup_and2_0_1/sim/questionA_xup_and2_0_1.v" \
+"../../../../lab7.ip_user_files/bd/questionA/ip/questionA_xup_and2_0_2/sim/questionA_xup_and2_0_2.v" \
+"../../../../lab7.ip_user_files/bd/questionA/ip/questionA_xup_and2_0_3/sim/questionA_xup_and2_0_3.v" \
+"../../../../lab7.ip_user_files/bd/questionA/ip/questionA_xup_and2_0_4/sim/questionA_xup_and2_0_4.v" \
+"../../../../lab7.ip_user_files/bd/questionA/ipshared/7294/src/xup_xor2.v" \
+"../../../../lab7.ip_user_files/bd/questionA/ip/questionA_xup_xor2_0_0/sim/questionA_xup_xor2_0_0.v" \
+"../../../../lab7.ip_user_files/bd/questionA/ip/questionA_xup_xor2_0_1/sim/questionA_xup_xor2_0_1.v" \
+"../../../../lab7.ip_user_files/bd/questionA/ipshared/c3d7/src/xup_or2.v" \
+"../../../../lab7.ip_user_files/bd/questionA/ip/questionA_xup_or2_0_0/sim/questionA_xup_or2_0_0.v" \
+"../../../../lab7.ip_user_files/bd/questionA/ipshared/67eb/src/xup_inv.v" \
+"../../../../lab7.ip_user_files/bd/questionA/ip/questionA_xup_inv_0_0/sim/questionA_xup_inv_0_0.v" \
+"../../../../lab7.ip_user_files/bd/questionA/ip/questionA_xup_inv_0_1/sim/questionA_xup_inv_0_1.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

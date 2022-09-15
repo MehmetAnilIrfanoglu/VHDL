@@ -1,0 +1,40 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivaldi/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 1f5002e8b5a344329280048dfcd9379e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_questionA_wrapper_behav xil_defaultlib.tb_questionA_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module xil_defaultlib.xup_and2
+Compiling module xil_defaultlib.questionA_xup_and2_0_0
+Compiling module xil_defaultlib.questionA_xup_and2_0_1
+Compiling module xil_defaultlib.questionA_xup_and2_0_2
+Compiling module xil_defaultlib.questionA_xup_and2_0_3
+Compiling module xil_defaultlib.questionA_xup_and2_0_4
+Compiling module xil_defaultlib.xup_dff_en_reset
+Compiling module xil_defaultlib.questionA_xup_dff_en_reset_0_0
+Compiling module xil_defaultlib.questionA_xup_dff_en_reset_0_1
+Compiling module xil_defaultlib.questionA_xup_dff_en_reset_0_2
+Compiling module xil_defaultlib.questionA_xup_dff_en_reset_0_3
+Compiling module xil_defaultlib.xup_inv
+Compiling module xil_defaultlib.questionA_xup_inv_0_0
+Compiling module xil_defaultlib.questionA_xup_inv_0_1
+Compiling module xil_defaultlib.xup_or2
+Compiling module xil_defaultlib.questionA_xup_or2_0_0
+Compiling module xil_defaultlib.xup_xor2
+Compiling module xil_defaultlib.questionA_xup_xor2_0_0
+Compiling module xil_defaultlib.questionA_xup_xor2_0_1
+Compiling architecture structure of entity xil_defaultlib.questionA [questiona_default]
+Compiling architecture structure of entity xil_defaultlib.questionA_wrapper [questiona_wrapper_default]
+Compiling architecture tb of entity xil_defaultlib.tb_questiona_wrapper
+Built simulation snapshot tb_questionA_wrapper_behav

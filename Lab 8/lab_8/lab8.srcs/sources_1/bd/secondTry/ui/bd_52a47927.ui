@@ -1,0 +1,51 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.323296",
+   "Default View_TopLeft":"-80,-387",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port clk -pg 1 -lvl 0 -x 0 -y 110 -defaultsOSRD
+preplace port en -pg 1 -lvl 0 -x 0 -y 150 -defaultsOSRD
+preplace port reset -pg 1 -lvl 0 -x 0 -y 130 -defaultsOSRD
+preplace port x -pg 1 -lvl 0 -x 0 -y 370 -defaultsOSRD
+preplace port z -pg 1 -lvl 2 -x 3820 -y 390 -defaultsOSRD
+preplace inst xup_and2_0 -pg 1 -lvl 1 -x 1720 -y 990 -defaultsOSRD
+preplace inst xup_and2_1 -pg 1 -lvl 1 -x 1720 -y -1050 -defaultsOSRD
+preplace inst xup_and2_2 -pg 1 -lvl 1 -x 1720 -y -930 -defaultsOSRD
+preplace inst xup_and2_3 -pg 1 -lvl 1 -x 1720 -y -810 -defaultsOSRD
+preplace inst xup_and2_4 -pg 1 -lvl 1 -x 1720 -y -670 -defaultsOSRD
+preplace inst xup_and2_5 -pg 1 -lvl 1 -x 1720 -y -550 -defaultsOSRD
+preplace inst xup_dff_en_reset_0 -pg 1 -lvl 1 -x 1720 -y -410 -defaultsOSRD
+preplace inst xup_dff_en_reset_1 -pg 1 -lvl 1 -x 1720 -y -210 -defaultsOSRD
+preplace inst xup_dff_en_reset_2 -pg 1 -lvl 1 -x 1720 -y 850 -defaultsOSRD
+preplace inst xup_dff_en_reset_3 -pg 1 -lvl 1 -x 1720 -y 690 -defaultsOSRD
+preplace inst xup_dff_en_reset_4 -pg 1 -lvl 1 -x 1720 -y 530 -defaultsOSRD
+preplace inst xup_inv_0 -pg 1 -lvl 1 -x 1720 -y -30 -defaultsOSRD
+preplace inst xup_or2_0 -pg 1 -lvl 1 -x 1720 -y 110 -defaultsOSRD
+preplace inst xup_or2_1 -pg 1 -lvl 1 -x 1720 -y 230 -defaultsOSRD
+preplace inst xup_or4_0 -pg 1 -lvl 1 -x 1720 -y 370 -defaultsOSRD
+preplace netloc clk_1 1 0 1 30J -420n
+preplace netloc en_1 1 0 1 40J -400n
+preplace netloc reset_1 1 0 1 50J -380n
+preplace netloc x_1 1 0 1 20 -1040n
+preplace netloc xup_and2_0_y 1 0 2 100 -1120 1930
+preplace netloc xup_and2_1_y 1 0 2 80 -1130 1850
+preplace netloc xup_and2_2_y 1 0 2 150 1110 1950
+preplace netloc xup_and2_3_y 1 0 2 130 1100 1940
+preplace netloc xup_and2_4_y 1 0 2 170 -740 1850
+preplace netloc xup_and2_5_y 1 1 1 1960 -550n
+preplace netloc xup_dff_en_reset_0_q 1 0 2 140 1060 1920J
+preplace netloc xup_dff_en_reset_1_q 1 0 2 120 1080 1900J
+preplace netloc xup_dff_en_reset_2_q 1 0 2 90 1070 1850J
+preplace netloc xup_dff_en_reset_3_q 1 0 2 150 -320 1890
+preplace netloc xup_dff_en_reset_4_q 1 0 2 170 -310 1870
+preplace netloc xup_inv_0_y 1 0 2 110 -300 1860
+preplace netloc xup_or2_0_y 1 0 2 160 -120 1850
+preplace netloc xup_or2_1_y 1 0 2 70 1090 1880
+preplace netloc xup_or4_0_y 1 0 2 60 1120 1910
+levelinfo -pg 1 0 1720 3820
+pagesize -pg 1 -db -bbox -sgen -80 -1140 3880 1130
+"
+}
+

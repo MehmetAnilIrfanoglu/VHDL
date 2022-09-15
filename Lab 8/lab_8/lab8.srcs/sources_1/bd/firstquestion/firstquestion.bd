@@ -1,0 +1,268 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xB42489FC6F55A0AD",
+      "device": "xc7k70tfbv676-1",
+      "name": "firstquestion",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "xup_dff_en_reset_0": "",
+      "xup_dff_en_reset_1": "",
+      "xup_dff_en_reset_2": "",
+      "xup_dff_en_reset_3": "",
+      "xup_dff_en_reset_4": "",
+      "xup_inv_0": "",
+      "xup_or2_0": "",
+      "xup_and2_0": "",
+      "xup_or4_0": "",
+      "xup_and2_1": "",
+      "xup_or2_1": "",
+      "xup_and2_2": "",
+      "xup_and2_3": "",
+      "xup_and2_4": "",
+      "xup_and2_5": ""
+    },
+    "ports": {
+      "x": {
+        "direction": "I"
+      },
+      "z": {
+        "direction": "O"
+      },
+      "clk": {
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "",
+            "value_src": "weak"
+          },
+          "FREQ_HZ": {
+            "value": "",
+            "value_src": "weak"
+          },
+          "PHASE": {
+            "value": "",
+            "value_src": "weak"
+          }
+        }
+      },
+      "en": {
+        "direction": "I"
+      },
+      "reset": {
+        "direction": "I",
+        "parameters": {
+          "POLARITY": {
+            "value": "",
+            "value_src": "weak"
+          }
+        }
+      }
+    },
+    "components": {
+      "xup_dff_en_reset_0": {
+        "vlnv": "xilinx.com:XUP:xup_dff_en_reset:1.0",
+        "xci_name": "firstquestion_xup_dff_en_reset_0_0"
+      },
+      "xup_dff_en_reset_1": {
+        "vlnv": "xilinx.com:XUP:xup_dff_en_reset:1.0",
+        "xci_name": "firstquestion_xup_dff_en_reset_1_0"
+      },
+      "xup_dff_en_reset_2": {
+        "vlnv": "xilinx.com:XUP:xup_dff_en_reset:1.0",
+        "xci_name": "firstquestion_xup_dff_en_reset_2_0"
+      },
+      "xup_dff_en_reset_3": {
+        "vlnv": "xilinx.com:XUP:xup_dff_en_reset:1.0",
+        "xci_name": "firstquestion_xup_dff_en_reset_3_0"
+      },
+      "xup_dff_en_reset_4": {
+        "vlnv": "xilinx.com:XUP:xup_dff_en_reset:1.0",
+        "xci_name": "firstquestion_xup_dff_en_reset_4_0"
+      },
+      "xup_inv_0": {
+        "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+        "xci_name": "firstquestion_xup_inv_0_0"
+      },
+      "xup_or2_0": {
+        "vlnv": "xilinx.com:XUP:xup_or2:1.0",
+        "xci_name": "firstquestion_xup_or2_0_0"
+      },
+      "xup_and2_0": {
+        "vlnv": "xilinx.com:XUP:xup_and2:1.0",
+        "xci_name": "firstquestion_xup_and2_0_0"
+      },
+      "xup_or4_0": {
+        "vlnv": "xilinx.com:XUP:xup_or4:1.0",
+        "xci_name": "firstquestion_xup_or4_0_0"
+      },
+      "xup_and2_1": {
+        "vlnv": "xilinx.com:XUP:xup_and2:1.0",
+        "xci_name": "firstquestion_xup_and2_1_0"
+      },
+      "xup_or2_1": {
+        "vlnv": "xilinx.com:XUP:xup_or2:1.0",
+        "xci_name": "firstquestion_xup_or2_1_0"
+      },
+      "xup_and2_2": {
+        "vlnv": "xilinx.com:XUP:xup_and2:1.0",
+        "xci_name": "firstquestion_xup_and2_2_0"
+      },
+      "xup_and2_3": {
+        "vlnv": "xilinx.com:XUP:xup_and2:1.0",
+        "xci_name": "firstquestion_xup_and2_3_0"
+      },
+      "xup_and2_4": {
+        "vlnv": "xilinx.com:XUP:xup_and2:1.0",
+        "xci_name": "firstquestion_xup_and2_4_0"
+      },
+      "xup_and2_5": {
+        "vlnv": "xilinx.com:XUP:xup_and2:1.0",
+        "xci_name": "firstquestion_xup_and2_5_0"
+      }
+    },
+    "nets": {
+      "x_1": {
+        "ports": [
+          "x",
+          "xup_inv_0/a",
+          "xup_and2_1/b",
+          "xup_and2_4/b",
+          "xup_and2_5/b"
+        ]
+      },
+      "xup_dff_en_reset_4_q": {
+        "ports": [
+          "xup_dff_en_reset_4/q",
+          "xup_or2_0/a",
+          "xup_or4_0/a"
+        ]
+      },
+      "xup_dff_en_reset_1_q": {
+        "ports": [
+          "xup_dff_en_reset_1/q",
+          "xup_or2_0/b",
+          "xup_and2_4/a"
+        ]
+      },
+      "xup_or2_0_y": {
+        "ports": [
+          "xup_or2_0/y",
+          "xup_and2_0/a"
+        ]
+      },
+      "xup_inv_0_y": {
+        "ports": [
+          "xup_inv_0/y",
+          "xup_and2_0/b",
+          "xup_and2_2/b",
+          "xup_and2_3/b"
+        ]
+      },
+      "xup_and2_0_y": {
+        "ports": [
+          "xup_and2_0/y",
+          "xup_dff_en_reset_4/d"
+        ]
+      },
+      "xup_dff_en_reset_3_q": {
+        "ports": [
+          "xup_dff_en_reset_3/q",
+          "xup_or4_0/b",
+          "xup_or2_1/a"
+        ]
+      },
+      "xup_dff_en_reset_2_q": {
+        "ports": [
+          "xup_dff_en_reset_2/q",
+          "xup_or4_0/c",
+          "xup_and2_3/a"
+        ]
+      },
+      "xup_dff_en_reset_0_q": {
+        "ports": [
+          "xup_dff_en_reset_0/q",
+          "xup_or4_0/d",
+          "xup_or2_1/b",
+          "xup_and2_5/a"
+        ]
+      },
+      "xup_or4_0_y": {
+        "ports": [
+          "xup_or4_0/y",
+          "xup_and2_1/a"
+        ]
+      },
+      "xup_and2_1_y": {
+        "ports": [
+          "xup_and2_1/y",
+          "xup_dff_en_reset_3/d"
+        ]
+      },
+      "xup_or2_1_y": {
+        "ports": [
+          "xup_or2_1/y",
+          "xup_and2_2/a"
+        ]
+      },
+      "xup_and2_2_y": {
+        "ports": [
+          "xup_and2_2/y",
+          "xup_dff_en_reset_2/d"
+        ]
+      },
+      "xup_and2_3_y": {
+        "ports": [
+          "xup_and2_3/y",
+          "xup_dff_en_reset_1/d"
+        ]
+      },
+      "xup_and2_4_y": {
+        "ports": [
+          "xup_and2_4/y",
+          "xup_dff_en_reset_0/d"
+        ]
+      },
+      "xup_and2_5_y": {
+        "ports": [
+          "xup_and2_5/y",
+          "z"
+        ]
+      },
+      "en_1": {
+        "ports": [
+          "en",
+          "xup_dff_en_reset_4/en",
+          "xup_dff_en_reset_3/en",
+          "xup_dff_en_reset_2/en",
+          "xup_dff_en_reset_1/en",
+          "xup_dff_en_reset_0/en"
+        ]
+      },
+      "clk_1": {
+        "ports": [
+          "clk",
+          "xup_dff_en_reset_4/clk",
+          "xup_dff_en_reset_3/clk",
+          "xup_dff_en_reset_2/clk",
+          "xup_dff_en_reset_1/clk",
+          "xup_dff_en_reset_0/clk"
+        ]
+      },
+      "reset_1": {
+        "ports": [
+          "reset",
+          "xup_dff_en_reset_4/reset",
+          "xup_dff_en_reset_3/reset",
+          "xup_dff_en_reset_2/reset",
+          "xup_dff_en_reset_1/reset",
+          "xup_dff_en_reset_0/reset"
+        ]
+      }
+    }
+  }
+}

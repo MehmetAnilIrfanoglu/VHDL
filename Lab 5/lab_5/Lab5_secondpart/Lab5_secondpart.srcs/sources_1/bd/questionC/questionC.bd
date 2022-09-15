@@ -1,0 +1,176 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x3B5CBDC53B5CBDC5",
+      "device": "xc7k70tfbv676-1",
+      "name": "questionC",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "decoder2to4_wrapper_0": "",
+      "decoder2to4_wrapper_1": "",
+      "xup_and2_0": "",
+      "xup_and2_1": "",
+      "xup_inv_0": ""
+    },
+    "ports": {
+      "X0": {
+        "direction": "I"
+      },
+      "X1": {
+        "direction": "I"
+      },
+      "X2": {
+        "direction": "I"
+      },
+      "Y0": {
+        "direction": "O"
+      },
+      "EN": {
+        "direction": "I"
+      },
+      "Y1": {
+        "direction": "O"
+      },
+      "Y2": {
+        "direction": "O"
+      },
+      "Y3": {
+        "direction": "O"
+      },
+      "Y4": {
+        "direction": "O"
+      },
+      "Y5": {
+        "direction": "O"
+      },
+      "Y6": {
+        "direction": "O"
+      },
+      "Y7": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "decoder2to4_wrapper_0": {
+        "vlnv": "xilinx.com:user:decoder2to4_wrapper:1.0",
+        "xci_name": "questionC_decoder2to4_wrapper_0_0"
+      },
+      "decoder2to4_wrapper_1": {
+        "vlnv": "xilinx.com:user:decoder2to4_wrapper:1.0",
+        "xci_name": "questionC_decoder2to4_wrapper_1_0"
+      },
+      "xup_and2_0": {
+        "vlnv": "xilinx.com:XUP:xup_and2:1.0",
+        "xci_name": "questionC_xup_and2_0_0"
+      },
+      "xup_and2_1": {
+        "vlnv": "xilinx.com:XUP:xup_and2:1.0",
+        "xci_name": "questionC_xup_and2_1_0"
+      },
+      "xup_inv_0": {
+        "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+        "xci_name": "questionC_xup_inv_0_0"
+      }
+    },
+    "nets": {
+      "decoder2to4_wrapper_0_D0": {
+        "ports": [
+          "decoder2to4_wrapper_0/D0",
+          "Y0"
+        ]
+      },
+      "decoder2to4_wrapper_0_D1": {
+        "ports": [
+          "decoder2to4_wrapper_0/D1",
+          "Y1"
+        ]
+      },
+      "decoder2to4_wrapper_0_D2": {
+        "ports": [
+          "decoder2to4_wrapper_0/D2",
+          "Y2"
+        ]
+      },
+      "decoder2to4_wrapper_0_D3": {
+        "ports": [
+          "decoder2to4_wrapper_0/D3",
+          "Y3"
+        ]
+      },
+      "decoder2to4_wrapper_1_D0": {
+        "ports": [
+          "decoder2to4_wrapper_1/D0",
+          "Y4"
+        ]
+      },
+      "decoder2to4_wrapper_1_D1": {
+        "ports": [
+          "decoder2to4_wrapper_1/D1",
+          "Y5"
+        ]
+      },
+      "decoder2to4_wrapper_1_D2": {
+        "ports": [
+          "decoder2to4_wrapper_1/D2",
+          "Y6"
+        ]
+      },
+      "decoder2to4_wrapper_1_D3": {
+        "ports": [
+          "decoder2to4_wrapper_1/D3",
+          "Y7"
+        ]
+      },
+      "xup_and2_1_y": {
+        "ports": [
+          "xup_and2_1/y",
+          "decoder2to4_wrapper_1/EN"
+        ]
+      },
+      "xup_and2_0_y": {
+        "ports": [
+          "xup_and2_0/y",
+          "decoder2to4_wrapper_0/EN"
+        ]
+      },
+      "EN_1": {
+        "ports": [
+          "EN",
+          "xup_and2_0/b",
+          "xup_and2_1/b"
+        ]
+      },
+      "X0_1": {
+        "ports": [
+          "X0",
+          "xup_inv_0/a",
+          "xup_and2_1/a"
+        ]
+      },
+      "xup_inv_0_y": {
+        "ports": [
+          "xup_inv_0/y",
+          "xup_and2_0/a"
+        ]
+      },
+      "X1_1": {
+        "ports": [
+          "X1",
+          "decoder2to4_wrapper_1/A1",
+          "decoder2to4_wrapper_0/A1"
+        ]
+      },
+      "X2_1": {
+        "ports": [
+          "X2",
+          "decoder2to4_wrapper_0/A0",
+          "decoder2to4_wrapper_1/A0"
+        ]
+      }
+    }
+  }
+}

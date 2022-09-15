@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"decoder2to4": {
+			"proto_instances": {
+			}
+		}
+	}
+}

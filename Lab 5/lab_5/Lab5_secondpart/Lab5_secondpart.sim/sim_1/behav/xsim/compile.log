@@ -1,0 +1,30 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/anil_/Lab5_secondpart/Lab5_secondpart.ip_user_files/bd/questionC/ip/questionC_decoder2to4_wrapper_0_0/bd/decoder2to4/ipshared/9859/src/xup_and2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/anil_/Lab5_secondpart/Lab5_secondpart.ip_user_files/bd/questionC/ip/questionC_decoder2to4_wrapper_0_0/bd/decoder2to4/ip/decoder2to4_xup_and2_0_0/sim/decoder2to4_xup_and2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder2to4_xup_and2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/anil_/Lab5_secondpart/Lab5_secondpart.ip_user_files/bd/questionC/ip/questionC_decoder2to4_wrapper_0_0/bd/decoder2to4/ip/decoder2to4_xup_and2_1_0/sim/decoder2to4_xup_and2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder2to4_xup_and2_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/anil_/Lab5_secondpart/Lab5_secondpart.ip_user_files/bd/questionC/ip/questionC_decoder2to4_wrapper_0_0/bd/decoder2to4/ip/decoder2to4_xup_and2_7_0/sim/decoder2to4_xup_and2_7_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder2to4_xup_and2_7_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/anil_/Lab5_secondpart/Lab5_secondpart.ip_user_files/bd/questionC/ip/questionC_decoder2to4_wrapper_0_0/bd/decoder2to4/ip/decoder2to4_xup_and2_4_0/sim/decoder2to4_xup_and2_4_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder2to4_xup_and2_4_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/anil_/Lab5_secondpart/Lab5_secondpart.ip_user_files/bd/questionC/ip/questionC_decoder2to4_wrapper_0_0/bd/decoder2to4/ip/decoder2to4_xup_and2_3_0/sim/decoder2to4_xup_and2_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder2to4_xup_and2_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/anil_/Lab5_secondpart/Lab5_secondpart.ip_user_files/bd/questionC/ip/questionC_decoder2to4_wrapper_0_0/bd/decoder2to4/ipshared/67eb/src/xup_inv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_inv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/anil_/Lab5_secondpart/Lab5_secondpart.ip_user_files/bd/questionC/ip/questionC_decoder2to4_wrapper_0_0/bd/decoder2to4/ip/decoder2to4_xup_inv_0_0/sim/decoder2to4_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder2to4_xup_inv_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/anil_/Lab5_secondpart/Lab5_secondpart.ip_user_files/bd/questionC/ip/questionC_decoder2to4_wrapper_0_0/bd/decoder2to4/ip/decoder2to4_xup_and2_5_0/sim/decoder2to4_xup_and2_5_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder2to4_xup_and2_5_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/anil_/Lab5_secondpart/Lab5_secondpart.ip_user_files/bd/questionC/ip/questionC_decoder2to4_wrapper_0_0/bd/decoder2to4/ip/decoder2to4_xup_and2_6_0/sim/decoder2to4_xup_and2_6_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder2to4_xup_and2_6_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/anil_/Lab5_secondpart/Lab5_secondpart.ip_user_files/bd/questionC/ip/questionC_decoder2to4_wrapper_0_0/bd/decoder2to4/ip/decoder2to4_xup_and2_2_0/sim/decoder2to4_xup_and2_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder2to4_xup_and2_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/anil_/Lab5_secondpart/Lab5_secondpart.ip_user_files/bd/questionC/ip/questionC_decoder2to4_wrapper_0_0/bd/decoder2to4/ip/decoder2to4_xup_inv_1_0/sim/decoder2to4_xup_inv_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder2to4_xup_inv_1_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anil_/Lab5_secondpart/Lab5_secondpart.ip_user_files/bd/questionC/ipshared/ae1f/bd/decoder2to4/sim/decoder2to4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'decoder2to4'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anil_/Lab5_secondpart/Lab5_secondpart.ip_user_files/bd/questionC/ipshared/ae1f/imports/hdl/decoder2to4_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'decoder2to4_wrapper'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anil_/Lab5_secondpart/Lab5_secondpart.srcs/sim_1/new/testC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_questionC_wrapper'

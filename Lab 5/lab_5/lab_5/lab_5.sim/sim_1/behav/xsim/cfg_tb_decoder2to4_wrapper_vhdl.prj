@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../lab_5.ip_user_files/bd/decoder2to4/sim/decoder2to4.vhd" \
+"../../../../lab_5.srcs/sources_1/imports/hdl/decoder2to4_wrapper.vhd" \
+"../../../../lab_5.srcs/sim_1/new/test.vhd" \
+
+# Do not sort compile order
+nosort

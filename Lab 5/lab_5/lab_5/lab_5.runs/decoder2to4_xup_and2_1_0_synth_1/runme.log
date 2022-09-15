@@ -1,0 +1,19 @@
+
+*** Running vivado
+    with args -log decoder2to4_xup_and2_1_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source decoder2to4_xup_and2_1_0.tcl
+
+
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source decoder2to4_xup_and2_1_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 1009.828 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/vivaldi/Library'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivaldi/Vivado/2020.1/data/ip'.
+update_ip_catalog: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1009.828 ; gain = 0.000
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP decoder2to4_xup_and2_1_0, cache-ID = 82a7ccff604686ba.
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 10 19:17:52 2020...

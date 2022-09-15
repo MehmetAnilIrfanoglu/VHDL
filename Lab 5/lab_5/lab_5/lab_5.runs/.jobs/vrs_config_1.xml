@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="decoder2to4_xup_and2_0_0_synth_1" LaunchDir="C:/Users/anil_/lab_5/lab_5.runs/decoder2to4_xup_and2_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="decoder2to4_xup_and2_1_0_synth_1" LaunchDir="C:/Users/anil_/lab_5/lab_5.runs/decoder2to4_xup_and2_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="decoder2to4_xup_and2_0_0_synth_1"/>
+	</Run>
+	<Run Id="decoder2to4_xup_and2_7_0_synth_1" LaunchDir="C:/Users/anil_/lab_5/lab_5.runs/decoder2to4_xup_and2_7_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="decoder2to4_xup_and2_0_0_synth_1"/>
+	</Run>
+	<Run Id="decoder2to4_xup_and2_4_0_synth_1" LaunchDir="C:/Users/anil_/lab_5/lab_5.runs/decoder2to4_xup_and2_4_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="decoder2to4_xup_and2_0_0_synth_1"/>
+	</Run>
+	<Run Id="decoder2to4_xup_and2_3_0_synth_1" LaunchDir="C:/Users/anil_/lab_5/lab_5.runs/decoder2to4_xup_and2_3_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="decoder2to4_xup_and2_0_0_synth_1"/>
+	</Run>
+	<Run Id="decoder2to4_xup_inv_0_0_synth_1" LaunchDir="C:/Users/anil_/lab_5/lab_5.runs/decoder2to4_xup_inv_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="decoder2to4_xup_and2_5_0_synth_1" LaunchDir="C:/Users/anil_/lab_5/lab_5.runs/decoder2to4_xup_and2_5_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="decoder2to4_xup_and2_0_0_synth_1"/>
+	</Run>
+	<Run Id="decoder2to4_xup_and2_6_0_synth_1" LaunchDir="C:/Users/anil_/lab_5/lab_5.runs/decoder2to4_xup_and2_6_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="decoder2to4_xup_and2_0_0_synth_1"/>
+	</Run>
+	<Run Id="decoder2to4_xup_and2_2_0_synth_1" LaunchDir="C:/Users/anil_/lab_5/lab_5.runs/decoder2to4_xup_and2_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="decoder2to4_xup_and2_0_0_synth_1"/>
+	</Run>
+	<Run Id="decoder2to4_xup_inv_1_0_synth_1" LaunchDir="C:/Users/anil_/lab_5/lab_5.runs/decoder2to4_xup_inv_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="decoder2to4_xup_inv_0_0_synth_1"/>
+	</Run>
+	<Run Id="synth_1" LaunchDir="C:/Users/anil_/lab_5/lab_5.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="decoder2to4_xup_and2_0_0_synth_1"/>
+		<Parent Id="decoder2to4_xup_and2_1_0_synth_1"/>
+		<Parent Id="decoder2to4_xup_and2_7_0_synth_1"/>
+		<Parent Id="decoder2to4_xup_and2_4_0_synth_1"/>
+		<Parent Id="decoder2to4_xup_and2_3_0_synth_1"/>
+		<Parent Id="decoder2to4_xup_inv_0_0_synth_1"/>
+		<Parent Id="decoder2to4_xup_and2_5_0_synth_1"/>
+		<Parent Id="decoder2to4_xup_and2_6_0_synth_1"/>
+		<Parent Id="decoder2to4_xup_and2_2_0_synth_1"/>
+		<Parent Id="decoder2to4_xup_inv_1_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

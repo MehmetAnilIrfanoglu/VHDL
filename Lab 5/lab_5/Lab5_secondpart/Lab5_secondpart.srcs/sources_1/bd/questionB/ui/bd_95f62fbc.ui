@@ -1,0 +1,39 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.8785",
+   "Default View_TopLeft":"-201,-437",
+   "ExpandedHierarchyInLayout":"",
+   "commentid":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port X0 -pg 1 -lvl 0 -x -50 -y -210 -defaultsOSRD
+preplace port X1 -pg 1 -lvl 0 -x -50 -y -270 -defaultsOSRD
+preplace port X2 -pg 1 -lvl 0 -x -50 -y -320 -defaultsOSRD
+preplace port Y7 -pg 1 -lvl 3 -x 470 -y -90 -defaultsOSRD
+preplace port Y6 -pg 1 -lvl 3 -x 470 -y -120 -defaultsOSRD
+preplace port Y5 -pg 1 -lvl 3 -x 470 -y -150 -defaultsOSRD
+preplace port Y4 -pg 1 -lvl 3 -x 470 -y -180 -defaultsOSRD
+preplace port Y3 -pg 1 -lvl 3 -x 470 -y -300 -defaultsOSRD
+preplace port Y2 -pg 1 -lvl 3 -x 470 -y -330 -defaultsOSRD
+preplace port Y1 -pg 1 -lvl 3 -x 470 -y -360 -defaultsOSRD
+preplace port Y0 -pg 1 -lvl 3 -x 470 -y -390 -defaultsOSRD
+preplace inst decoder2to4_wrapper_0 -pg 1 -lvl 2 -x 330 -y -130 -defaultsOSRD
+preplace inst decoder2to4_wrapper_1 -pg 1 -lvl 2 -x 330 -y -320 -defaultsOSRD
+preplace inst xup_inv_0 -pg 1 -lvl 1 -x 90 -y -290 -defaultsOSRD -resize 87 88
+preplace netloc decoder2to4_wrapper_1_D0 1 2 1 430 -390n
+preplace netloc decoder2to4_wrapper_1_D1 1 2 1 440 -360n
+preplace netloc decoder2to4_wrapper_1_D2 1 2 1 450 -330n
+preplace netloc decoder2to4_wrapper_1_D3 1 2 1 440 -300n
+preplace netloc decoder2to4_wrapper_0_D0 1 2 1 440 -180n
+preplace netloc decoder2to4_wrapper_0_D1 1 2 1 440 -150n
+preplace netloc decoder2to4_wrapper_0_D2 1 2 1 N -120
+preplace netloc decoder2to4_wrapper_0_D3 1 2 1 440 -100n
+preplace netloc X0_1 1 0 2 -20 -110 N
+preplace netloc xup_inv_0_y 1 1 1 180 -300n
+preplace netloc X1_1 1 0 2 -30J -220 170
+preplace netloc X2_1 1 0 2 -20J -360 160
+levelinfo -pg 1 -50 90 330 470
+pagesize -pg 1 -db -bbox -sgen -120 -590 540 180
+"
+}
+0

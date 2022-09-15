@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Lab5_secondpart.ip_user_files/bd/questionC/ipshared/ae1f/bd/decoder2to4/sim/decoder2to4.vhd" \
+"../../../../Lab5_secondpart.ip_user_files/bd/questionC/ipshared/ae1f/imports/hdl/decoder2to4_wrapper.vhd" \
+"../../../../Lab5_secondpart.ip_user_files/bd/questionC/ip/questionC_decoder2to4_wrapper_0_0/sim/questionC_decoder2to4_wrapper_0_0.vhd" \
+"../../../../Lab5_secondpart.ip_user_files/bd/questionC/ip/questionC_decoder2to4_wrapper_1_0/sim/questionC_decoder2to4_wrapper_1_0.vhd" \
+"../../../../Lab5_secondpart.ip_user_files/bd/questionC/sim/questionC.vhd" \
+"../../../../Lab5_secondpart.srcs/sources_1/imports/hdl/questionC_wrapper.vhd" \
+
+# Do not sort compile order
+nosort

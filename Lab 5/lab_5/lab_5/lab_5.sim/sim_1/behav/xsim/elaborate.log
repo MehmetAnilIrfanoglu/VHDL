@@ -1,0 +1,33 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivaldi/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto e587c544f7594190be3b4820d991fd07 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot cfg_tb_decoder2to4_wrapper_behav xil_defaultlib.cfg_tb_decoder2to4_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module xil_defaultlib.xup_and2
+Compiling module xil_defaultlib.decoder2to4_xup_and2_0_0
+Compiling module xil_defaultlib.decoder2to4_xup_and2_1_0
+Compiling module xil_defaultlib.decoder2to4_xup_and2_2_0
+Compiling module xil_defaultlib.decoder2to4_xup_and2_3_0
+Compiling module xil_defaultlib.decoder2to4_xup_and2_4_0
+Compiling module xil_defaultlib.decoder2to4_xup_and2_5_0
+Compiling module xil_defaultlib.decoder2to4_xup_and2_6_0
+Compiling module xil_defaultlib.decoder2to4_xup_and2_7_0
+Compiling module xil_defaultlib.xup_inv
+Compiling module xil_defaultlib.decoder2to4_xup_inv_0_0
+Compiling module xil_defaultlib.decoder2to4_xup_inv_1_0
+Compiling architecture structure of entity xil_defaultlib.decoder2to4 [decoder2to4_default]
+Compiling architecture structure of entity xil_defaultlib.decoder2to4_wrapper [decoder2to4_wrapper_default]
+Compiling architecture tb of entity xil_defaultlib.tb_decoder2to4_wrapper [tb_decoder2to4_wrapper]
+Built simulation snapshot cfg_tb_decoder2to4_wrapper_behav

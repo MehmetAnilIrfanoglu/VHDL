@@ -1,0 +1,61 @@
+--Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------
+--Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+--Date        : Tue Nov 10 22:58:23 2020
+--Host        : DESKTOP-ECJJKP0 running 64-bit major release  (build 9200)
+--Command     : generate_target questionB_wrapper.bd
+--Design      : questionB_wrapper
+--Purpose     : IP block netlist
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+library UNISIM;
+use UNISIM.VCOMPONENTS.ALL;
+entity questionB_wrapper is
+  port (
+    X0 : in STD_LOGIC;
+    X1 : in STD_LOGIC;
+    X2 : in STD_LOGIC;
+    Y0 : out STD_LOGIC;
+    Y1 : out STD_LOGIC;
+    Y2 : out STD_LOGIC;
+    Y3 : out STD_LOGIC;
+    Y4 : out STD_LOGIC;
+    Y5 : out STD_LOGIC;
+    Y6 : out STD_LOGIC;
+    Y7 : out STD_LOGIC
+  );
+end questionB_wrapper;
+
+architecture STRUCTURE of questionB_wrapper is
+  component questionB is
+  port (
+    X0 : in STD_LOGIC;
+    X1 : in STD_LOGIC;
+    X2 : in STD_LOGIC;
+    Y7 : out STD_LOGIC;
+    Y6 : out STD_LOGIC;
+    Y5 : out STD_LOGIC;
+    Y4 : out STD_LOGIC;
+    Y3 : out STD_LOGIC;
+    Y2 : out STD_LOGIC;
+    Y1 : out STD_LOGIC;
+    Y0 : out STD_LOGIC
+  );
+  end component questionB;
+begin
+questionB_i: component questionB
+     port map (
+      X0 => X0,
+      X1 => X1,
+      X2 => X2,
+      Y0 => Y0,
+      Y1 => Y1,
+      Y2 => Y2,
+      Y3 => Y3,
+      Y4 => Y4,
+      Y5 => Y5,
+      Y6 => Y6,
+      Y7 => Y7
+    );
+end STRUCTURE;

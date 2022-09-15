@@ -1,0 +1,8 @@
+vhdl xil_defaultlib  \
+"../../../bd/questionB/ipshared/ae1f/bd/decoder2to4/sim/decoder2to4.vhd" \
+"../../../bd/questionB/ipshared/ae1f/imports/hdl/decoder2to4_wrapper.vhd" \
+"../../../bd/questionB/ip/questionB_decoder2to4_wrapper_0_0/sim/questionB_decoder2to4_wrapper_0_0.vhd" \
+"../../../bd/questionB/ip/questionB_decoder2to4_wrapper_1_0/sim/questionB_decoder2to4_wrapper_1_0.vhd" \
+"../../../bd/questionB/sim/questionB.vhd" \
+
+nosort
